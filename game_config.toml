@@ -1,0 +1,72 @@
+name = "Die natürlichen Zahlen"
+version = "1.0"
+extra_files = "src/natnum"
+intro = "src/intro.lean"
+
+[[worlds]]
+name = "Peano"
+id = 1
+levels = [
+	"src/game/Peano/level_1.lean",
+	"src/game/Peano/level_2.lean",
+]
+
+[[worlds]]
+name = "Addition"
+id = 2
+parents = [1]
+levels = [
+	"src/game/Addition/level_1.lean",
+	"src/game/Addition/level_2.lean",
+	"src/game/Addition/level_3.lean",
+	"src/game/Addition/level_4.lean",
+	"src/game/Addition/level_5.lean",
+	"src/game/Addition/level_6.lean",
+	"src/game/Addition/level_7.lean",
+]
+
+[[worlds]]
+name = "Addition - Extras"
+id = 3
+parents = [2]
+levels = [
+	"src/game/Addition_Extra/level_1.lean",
+]
+
+[[worlds]]
+name = "Multiplikation"
+id = 4
+parents = [2]
+levels = [
+	"src/game/Multiplikation/level_1.lean",
+	"src/game/Multiplikation/level_2.lean",
+	"src/game/Multiplikation/level_3.lean",
+	"src/game/Multiplikation/level_4.lean",
+	"src/game/Multiplikation/level_5.lean",
+]
+
+[[worlds]]
+name = "Multiplikation - Extras"
+id = 5
+parents = [4]
+levels = [
+	"src/game/Multiplikation_Extra/level_1.lean",
+	"src/game/Multiplikation_Extra/level_2.lean",
+	"src/game/Multiplikation_Extra/level_3.lean",
+	"src/game/Multiplikation_Extra/level_4.lean",
+]
+
+[[worlds]]
+name = "Potenzen"
+id = 6
+parents = [4]
+levels = [
+	"src/game/Potenzen/level_1.lean",
+	"src/game/Potenzen/level_2.lean",
+	"src/game/Potenzen/level_3.lean",
+	"src/game/Potenzen/level_4.lean",
+	"src/game/Potenzen/level_5.lean",
+	"src/game/Potenzen/level_6.lean",
+	"src/game/Potenzen/level_7.lean",
+	"src/game/Potenzen/level_8.lean",
+]
