@@ -1,6 +1,6 @@
 name = "Die natürlichen Zahlen"
 version = "1.0"
-extra_files = "src/natnum"
+extra_files = "src/N"
 intro = "src/intro.lean"
 
 [[worlds]]
